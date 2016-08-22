@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+from saver import Saver
+
+def main():
+    sav = Saver()
+    sav.turn_off_all()
+
+if __name__ == "__main__":
+    main()
